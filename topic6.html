@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Types of Computers</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgb(226, 226, 217);
+        }
+
+        .navbar {
+            background-color: rgb(41, 111, 202);
+            padding: 20px;
+            text-align: auto;
+        }
+
+        .navbar img {
+            width: 200px;
+            display: block;
+            padding-bottom: 20px;
+            margin: 10 auto 10px auto;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 15px;
+            background-color: rgb(24, 66, 107); /*Button color*/
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: rgb(24, 57, 95); /*Hover button effect*/
+        }
+
+        .title {
+            text-align: center;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        th, td {
+            border: 1px solid rgb(221, 221, 221);
+            text-align: center;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: rgb(50, 146, 71);
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: rgb(238, 235, 235);
+        }
+        
+        tr:hover {
+            background-color: rgb(221, 221, 221);
+        }
+
+        .fade-in {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Panel -->
+    <div class="navbar">
+        <img src="TechKnowledgy_logo.png">
+        <nav>
+            <a href="techknowledgy.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+            <a href="https://forms.gle/tT7npAqf4fnTTkXd9" target="_blank">Feedback</a>
+        </nav>
+    </div>
+
+    <div class="title">
+        <h1>Different Types of Computers</h1>
+    </div>
+
+    <div class="fade-in">
+        <table>
+            <thead>
+              <tr>
+                <th>Name/Brand</th>
+                <th>CPU</th>
+                <th>Memory</th>
+                <th>Processing Speed</th>
+                <th>Calculating Power</th>
+                <th>Working Principle</th>
+                <th>Energy Consumption</th>
+                <th>Field of Use</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Supercomputer</td>
+                <td>NVIDIA 3.2 GHz</td>
+                <td>32 PB</td>
+                <td>3.2 GHz</td>
+                <td>10<sup>18</sup> FLOPS</td>
+                <td>Parallel Processing - millions of processors per problem part, resulting in extremely fast calculations</td>
+                <td>5 - 15 MW</td>
+                <td>Aerospace, Automobiles, Weather Forecasts, Scientific Research</td>
+              </tr>
+              <tr>
+                <td>Mainframe Computers</td>
+                <td>IBM 4 GHz</td>
+                <td>40 TB</td>
+                <td>4 GHz</td>
+                <td>10<sup>9</sup> FLOPS</td>
+                <td>Batch Processing - Handles large amounts of processes ensuring high reliability per result</td>
+                <td>5 kW</td>
+                <td>Banking, Government Agencies, Large Businesses</td>
+              </tr>
+              <tr>
+                <td>Mini Computers</td>
+                <td>Apple 2 GHz</td>
+                <td>16 GB</td>
+                <td>2 GHz</td>
+                <td>10<sup>6</sup> FLOPS</td>
+                <td>Multiprocessing - Allows user to handle multiple tasks at once, without lowering performance</td>
+                <td>60 - 100 W</td>
+                <td>Small Businesses, Research Systems, Factories</td>
+              </tr>
+              <tr>
+                <td>Server</td>
+                <td>Dell 2.0 - 3.7 GHz</td>
+                <td>128 GB - 1 TB</td>
+                <td>2.0 - 3.7 GHz</td>
+                <td>10<sup>9</sup> FLOPS</td>
+                <td>Client-Server Architecture - Provides resources to the clients through a network, and can support multiple users</td>
+                <td>0.8 - 2.0 kW</td>
+                <td>Web Hosting, Cloud Computing</td>
+              </tr>
+              <tr>
+                <td>Workstations</td>
+                <td>HP 2.4 - 3.5 GHz</td>
+                <td>32 GB - 128 GB</td>
+                <td>2.4 - 3.5 GHz</td>
+                <td>10<sup>8</sup> FLOPS</td>
+                <td>Single-user high-end performance - Optimized for heavy computer processes</td>
+                <td>1.0 - 2.5 kW</td>
+                <td>Video Editing, Animations, Complex Simulations, 3D Designs</td>
+              </tr>
+              <tr>
+                <td>Microcomputers</td>
+                <td>Apple 3.0 - 5.7 GHz</td>
+                <td>8 GB - 16 GB</td>
+                <td>3.0 - 5.7 GHz</td>
+                <td>10<sup>6</sup> FLOPS</td>
+                <td>General Purpose Usage - Used for productivity and entertainment, processes light tasks</td>
+                <td>15 - 20 W</td>
+                <td>Personal Home Use, Educational Learning, Business Use</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</body>
+</html>

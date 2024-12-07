@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Types of Motherboards</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgb(226, 226, 217);
+        }
+
+        .navbar {
+            background-color: rgb(41, 111, 202);
+            padding: 20px;
+            text-align: auto;
+        }
+
+        .navbar img {
+            width: 200px;
+            display: block;
+            padding-bottom: 20px;
+            margin: 10 auto 10px auto;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 15px;
+            background-color: rgb(24, 66, 107); /*Button color*/
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: rgb(24, 57, 95); /*Hover button effect*/
+        }
+
+        .title {
+            text-align: center;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid rgb(221, 221, 221);
+            text-align: center;
+            padding: 8px;
+        }
+
+        th {
+            background-color: rgb(41, 111, 202);
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(238, 235, 235);
+        }
+
+        tr:hover {
+            background-color: rgb(221, 221, 221);
+        }
+
+        .fade-in {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Panel -->
+    <div class="navbar">
+        <img src="TechKnowledgy_logo.png">
+        <nav>
+            <a href="techknowledgy.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+            <a href="https://forms.gle/tT7npAqf4fnTTkXd9" target="_blank">Feedback</a>
+        </nav>
+    </div>
+
+    <div class="title">
+        <h1>Different Types of Motherboards</h1>
+    </div>
+
+    <div class="fade-in">
+        <table>
+            <thead>
+            <tr>
+                <th>Form Factor</th>
+                <th>Build</th>
+                <th>CPU Slots</th>
+                <th>Memory Slots</th>
+                <th>Chipsets</th>
+                <th>BIOS</th>
+                <th>PCI Slots</th>
+                <th>SATA</th>
+                <th>Built-in Features</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>AT</td>
+                <td>351 x 305 mm<br>Older design</td>
+                <td>1</td>
+                <td>2 - 4</td>
+                <td>Intel</td>
+                <td>Legacy BIOS</td>
+                <td>1 - 2</td>
+                <td>No SATA</td>
+                <td>Core parts of motherboard, basic I/O devices</td>
+            </tr>
+            <tr>
+                <td>ATX</td>
+                <td>305 x 244 mm<br>Standardized</td>
+                <td>1</td>
+                <td>2 - 8</td>
+                <td>Intel</td>
+                <td>Modern BIOS / UEFI</td>
+                <td>2 - 6</td>
+                <td>4 - 8</td>
+                <td>USB ports, M.2 Slots, SATA ports, audio expansion slots</td>
+            </tr>
+            <tr>
+                <td>BTX</td>
+                <td>325 × 267 mm<br>Made for enhanced cooling</td>
+                <td>1</td>
+                <td>2 - 4</td>
+                <td>Intel</td>
+                <td>UEFI/BIOS</td>
+                <td>2 - 4</td>
+                <td>4 - 8</td>
+                <td>Improved airflow design, few expansion options, network controller</td>
+            </tr>
+            <tr>
+                <td>Extended-ATX</td>
+                <td>305 × 330 mm<br>Larger version of ATX</td>
+                <td>2</td>
+                <td>8 - 16</td>
+                <td>Intel</td>
+                <td>UEFI/BIOS</td>
+                <td>4 - 8</td>
+                <td>6 - 12</td>
+                <td>Storage, GPU slots, RAM slots, PCI slots</td>
+            </tr>
+            <tr>
+                <td>LPX</td>
+                <td>330 × 229 mm<br>Slim design</td>
+                <td>1</td>
+                <td>1 - 2</td>
+                <td>Intel</td>
+                <td>Legacy BIOS</td>
+                <td>1 - 2</td>
+                <td>No SATA</td>
+                <td>Limited expansion slots</td>
+            </tr>
+            <tr>
+                <td>Micro-ATX</td>
+                <td>244 × 244 mm<br>Smaller version of ATX</td>
+                <td>1</td>
+                <td>2 - 4</td>
+                <td>Intel</td>
+                <td>UEFI/BIOS</td>
+                <td>2 - 4</td>
+                <td>4 - 6</td>
+                <td>USB ports, LAN, audio, Wi-Fi/Bluetooth</td>
+            </tr>
+            <tr>
+                <td>Mini ITX</td>
+                <td>170 × 170 mm<br>Made for smaller cases</td>
+                <td>1</td>
+                <td>1 - 2</td>
+                <td>Intel</td>
+                <td>UEFI/BIOS</td>
+                <td>1</td>
+                <td>2 - 4</td>
+                <td>USB ports, LAN, audio, often Wi-Fi/Bluetooth</td>
+            </tr>
+            <tr>
+                <td>Mini-ATX</td>
+                <td>150 x 150 mm<br>Slightly larger than Mini-ITX</td>
+                <td>1</td>
+                <td>2 - 4</td>
+                <td>Intel</td>
+                <td>UEFI/BIOS</td>
+                <td>1 - 2</td>
+                <td>2 - 4</td>
+                <td>Limited expansion; USB, audio, LAN</td>
+            </tr>
+            <tr>
+                <td>Pico BTX</td>
+                <td>203 × 267 mm<br>Compact version of BTX</td>
+                <td>1</td>
+                <td>1</td>
+                <td>Intel</td>
+                <td>UEFI/BIOS</td>
+                <td>1</td>
+                <td>2 - 4</td>
+                <td>Efficient cooling</td>
+            </tr>
+            <tr>
+                <td>Standard-ATX</td>
+                <td>305 x 244 mm</td>
+                <td>1</td>
+                <td>2 - 8</td>
+                <td>Intel</td>
+                <td>UEFI/BIOS</td>
+                <td>2 - 6</td>
+                <td>4 - 8</td>
+                <td>USB, audio, LAN, multiple expansion slots</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
